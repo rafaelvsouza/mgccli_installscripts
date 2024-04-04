@@ -14,7 +14,7 @@ Download the script to any folder and execute.
 
 **On a Windows Powershell terminal**
 
-1. Ensure you have RemoteSigned execution policy permission: `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force`
+1. Ensure you have RemoteSigned [execution policy](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.4) permission: `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force`
 2. Run the script: `.\mgc_cli_install.ps1`
 
 **On a Linux or Mac terminal**
