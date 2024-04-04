@@ -11,9 +11,9 @@ Download the script to any folder and execute.
 
 **On Windows Powershell**
 
-1. Run the command: .\mgc_cli_install.ps1
+1. Run the script: .\mgc_cli_install.ps1
 
 **On Linux or Mac**
 
 1. Make it executable with the command: chmod +x mgc_cli_install.sh
-2. Execute it: ./mgc_cli_install.sh
+2. Run the script: ./mgc_cli_install.sh
