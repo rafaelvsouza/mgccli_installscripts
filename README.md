@@ -5,8 +5,8 @@
 
 These scripts will automate the process of checking the [official MGC CLI repository](https://github.com/MagaluCloud/mgccli/releases) for new packages, download and install them in your local machine.
 
-- [Windows (powershell)](https://github.com/rafaelvsouza/mgccli_installscripts/blob/v0.1/mgc_cli_install.ps1)
-- [Linux or MacOS](https://github.com/rafaelvsouza/mgccli_installscripts/blob/v0.1/mgc_cli_install.sh)
+- [Windows (powershell)](https://github.com/rafaelvsouza/mgccli_installscripts/blob/main/mgc_cli_install.ps1)
+- [Linux or MacOS](https://github.com/rafaelvsouza/mgccli_installscripts/blob/main/mgc_cli_install.sh)
 
 ## Usage
 
