@@ -6,7 +6,7 @@
     unzips the downloaded package, moves the mgc.exe binary to a destination folder, updates the user PATH
     environment variable to include the destination folder, and cleans up temporary files.
 .AUTHOR
-    MGC CLI Squad
+    Rafael S
 .DATE
     2024-04-02
 .VERSION

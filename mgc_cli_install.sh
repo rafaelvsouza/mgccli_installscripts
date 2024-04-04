@@ -5,7 +5,7 @@
 # Description: This script checks for the latest version of MGC CLI on GitHub,
 #              downloads the appropriate package based on the Linux distribution
 #              and installs it.
-# Author:      MGC CLI Squad
+# Author:      Rafael S.
 # Version:     1.0
 # Date:        2024-04-02
 # Usage:       ./mgc_cli_install.sh
