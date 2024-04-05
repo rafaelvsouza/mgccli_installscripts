@@ -20,7 +20,11 @@ Download the script to any folder and execute. :)
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression -Command "mgc_cli_install.ps1"
 ```
-
+2. Update PATH variable:
+```
+$env:Path += ";C:\Users\your-user\mgc-cli"
+```
+3. Restart the terminal
 
 ### Linux or Mac
 
