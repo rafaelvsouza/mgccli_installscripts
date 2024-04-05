@@ -16,7 +16,7 @@ Download the script to any folder and execute.
 
 **In a Powershell terminal:**
 
-1. Ensure you have RemoteSigned [execution policy](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.4) permission:
+1. Ensure you have RemoteSigned [execution policy](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.4):
 ```
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 ```
