@@ -75,20 +75,21 @@ function Update-Path {
     param (
         [string]$addToPath
     )
+
     # Get the current PATH variable value
     $currentPath = [System.Environment]::GetEnvironmentVariable("PATH", "User")
     
     # Check if the directory is already in the PATH
-    if (! $currentPath -like "*$addToPath*") {
+    if ($currentPath -like "*$addToPath*") {
+        Write-Host -ForegroundColor Green "PATH environment variable already contains $destinationFolder"
+    }
+    else {
         # Append the directory to the PATH
         $newPath = $addToPath + ";" + $currentPath
 
         # Set the updated PATH variable
         [System.Environment]::SetEnvironmentVariable("PATH", $newPath, "User")
-        Write-Host -ForegroundColor Yellow "PATH environment variable updated to include $destinationFolder"
-    }
-    else {
-        Write-Host -ForegroundColor Green "PATH environment variable already contains $destinationFolder"
+        Write-Host -ForegroundColor Yellow "PATH environment variable updated to include $destinationFolder"        
     }
 }
 
