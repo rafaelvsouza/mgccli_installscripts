@@ -6,7 +6,7 @@
 #              downloads the appropriate package based on the Linux distribution
 #              and installs it.
 # Author:      Rafael S.
-# Version:     1.0
+# Version:     0.2.2
 # Date:        2024-04-02
 # Usage:       ./mgc_cli_install.sh
 ################################################################################

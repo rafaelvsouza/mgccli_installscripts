@@ -10,7 +10,7 @@
 .DATE
     2024-04-02
 .VERSION
-    1.0
+    0.2.2
 #>
 
 # Function to make an API request
