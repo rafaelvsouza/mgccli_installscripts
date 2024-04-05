@@ -16,10 +16,15 @@ Download the script to any folder and execute. :)
 
 **In a Powershell terminal:**
 
-1. Run the script:
+1. Run the script locally:
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression -Command "mgc_cli_install.ps1"
 ```
+**OR** run the script from the repo:
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://github.com/rafaelvsouza/mgccli_installscripts/blob/main/mgc_cli_install.ps1') 
+```
+
 2. Update PATH variable:
 ```
 $env:Path += ";C:\Users\your-user\mgc-cli"
