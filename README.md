@@ -10,21 +10,21 @@ These scripts will automate the process of checking the [official MGC CLI reposi
 
 ## Usage
 
-Download the script to any folder and execute.
+Download the script to any folder and execute. :)
 
 ### Windows
 
 **In a Powershell terminal:**
 
-1. Ensure you have RemoteSigned [execution policy](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.4):
+1. Run the script:
 ```
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression -Command "mgc_cli_install.ps1"
 ```
-2. Run the script:
+2. Update PATH variable:
 ```
-.\mgc_cli_install.ps1
+$env:Path += ";C:\Users\your-user\mgc-cli"
 ```
-
+3. Restart the terminal
 
 ### Linux or Mac
 
