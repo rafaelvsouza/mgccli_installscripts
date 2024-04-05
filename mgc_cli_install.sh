@@ -83,7 +83,7 @@ echo ""
 filename=$(basename $url)
 
 # Ask for confirmation before downloading the file
-read -p "Do you want to download $filename? [Y/n]: " choice
+read -p "Would you like to download $filename? [Y/n]: " choice
 if [[ ! $choice =~ ^[Yy]$ ]]; then
     echo "Download cencelled by the user."
     exit 0
@@ -100,7 +100,7 @@ fi
 echo "" 
 
 # Ask for confirmation before installing 
-read -p "Do you want to install $filename? [Y/n]: " choice
+read -p "Would you like to install $filename? [Y/n]: " choice
 if [[ $choice =~ ^[Yy]$ ]]; then
     # Install the package based on Linux distribution
     if [[ "$package_type" == "deb" ]]; then
@@ -114,9 +114,9 @@ if [[ $choice =~ ^[Yy]$ ]]; then
         tar -xzf $filename -C ~/mgc_temp
         sudo cp -f ~/mgc_temp/mgc /usr/bin
         rm -rf ~/mgc_temp
-        echo "MGC CLI binary copied to /usr/bin"
-        echo ""
+        echo "MGC CLI binary copied to /usr/bin"        
     fi
+    echo ""
     echo "Installation finished."
     echo ""
     echo "Next steps:"
