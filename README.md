@@ -22,8 +22,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression -Command "mg
 ```
 **OR** run the script from the repo:
 ```
-Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://github.com/rafaelvsouza/mgccli_installscripts/blob/main/mgc_cli_install.ps1') 
+Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/rafaelvsouza/mgccli_installscripts/main/mgc_cli_install.ps1"))
 ```
+
 
 2. Update PATH variable:
 ```
