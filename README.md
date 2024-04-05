@@ -10,7 +10,7 @@ These scripts will automate the process of checking the [official MGC CLI reposi
 
 ## Usage
 
-Download the script to any folder and execute.
+Download the script to any folder and execute. :)
 
 ### Windows
 
