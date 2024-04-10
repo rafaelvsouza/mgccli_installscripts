@@ -36,5 +36,5 @@ $env:Path += ";C:\Users\your-user\mgc-cli"
 
 ### MacOS
 
-Check the [official MGC CLI repository](https://github.com/MagaluCloud/mgccli) for instruction on how to install on a Mac using Homebrew.
+Check the [official MGC CLI repository](https://github.com/MagaluCloud/mgccli?tab=readme-ov-file#macos) for instruction on how to install on a Mac using Homebrew.
 
