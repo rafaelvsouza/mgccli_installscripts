@@ -16,31 +16,27 @@ Download the script to any folder and execute. :)
 
 **In a Powershell terminal:**
 
-1. Run the script locally:
-```
-Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression -Command "mgc_cli_install.ps1"
-```
-**OR** run the script from the repo:
+1. Run the installation script:
+
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/rafaelvsouza/mgccli_installscripts/main/mgc_cli_install.ps1"))
 ```
 
+2. Update PATH variable with your installation folder:
 
-2. Update PATH variable:
 ```
 $env:Path += ";C:\Users\your-user\mgc-cli"
 ```
+
 3. Restart the terminal
 
-### Linux or Mac
+### Linux
 
 **In a terminal:**
 
-1. Make it executable with the command:
+1. Execute the following command
+   
 ```
-chmod +x mgc_cli_install.sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/rafaelvsouza/mgccli_installscripts/main/mgc_cli_install.sh)"
 ```
-3. Run the script:
-```
-./mgc_cli_install.sh
-``` 
+
