@@ -34,3 +34,7 @@ $env:Path += ";C:\Users\your-user\mgc-cli"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/rafaelvsouza/mgccli_installscripts/main/mgc_cli_install.sh)"
 ```
 
+### MacOS
+
+Check the [official MGC CLI repository](https://github.com/MagaluCloud/mgccli) for instruction on how to install on a Mac using Homebrew.
+
