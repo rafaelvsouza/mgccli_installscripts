@@ -1,4 +1,4 @@
-# MGC CLI Install Scripts
+# MGC CLI Install/Upgrade Scripts
 
 > [!NOTE]
 > This is an unofficial repository of Magalu Cloud CLI install scripts
@@ -7,12 +7,12 @@ These scripts will automate the process of checking the [official MGC CLI reposi
 
 ## Usage
 
-Open a terminal and execute the commands below.
+To install or upgrade the MGC CLI in your local machine, open a terminal and execute the commands below.
 
 
 ### Windows 
 
-1. Run this command in a Powershell terminal:
+1. Run this command in a **Powershell** terminal:
 
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/rafaelvsouza/mgccli_installscripts/main/mgc_cli_install.ps1"))
