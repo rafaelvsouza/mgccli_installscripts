@@ -3,7 +3,10 @@
 > [!NOTE]
 > This is an **unofficial** repository of Magalu Cloud CLI install scripts
 
-These scripts will automate the process of checking the [official MGC CLI repository](https://github.com/MagaluCloud/mgccli/releases) for new packages, download and install them in your local machine.
+## Overview
+
+These scripts will automate the process of checking the [official MGC CLI repository](https://github.com/MagaluCloud/mgccli/releases) for new packages, download and install them in your local machine. 
+It will ask for confirmation on every step, so don't worry, you can stop or abort it if you want.
 
 ## Usage
 
