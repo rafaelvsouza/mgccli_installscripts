@@ -18,7 +18,7 @@ To install or upgrade the MGC CLI in your local machine, open a terminal and exe
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/rafaelvsouza/mgccli_installscripts/main/mgc_cli_install.ps1"))
 ```
 
-2. Update PATH variable with your installation folder:
+2. Run this command if you want to add CLI installation folder to PATH variable (recommended):
 
 ```
 $env:Path += ";C:\Users\your-user\mgc-cli"
